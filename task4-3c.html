@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <title>bootstrap content page</title>
+  </head>
+  <body>
+    <a id="top"></a>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container col-12">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Career</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Web design</a></li>
+                  <li><a class="dropdown-item" href="#">Cloud Engineering</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">TELEPHONE</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EMAIL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">DOWNLOAD RESUME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">DO YOU KNOW?</button>
+            <!-- offcanvas feature -->
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">YOU deserve the best</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>our Services are top-notched. we have gained several awards, like google best designer of the year.</p>
+  </div>
+</div>
+          <!-- carousel -->
+          <div class=" container col-12">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../images/model-429733_640.jpg" alt="picture of a beautiful woman">
+          <div class="carousel-caption d-none d-md-block">
+          <h5>women are priceless</h5>
+            <p>beautiful model</p>
+        </div>
+        </div>
+    
+        <div class="item">
+          <img src="../images/girl-1160441_640.jpg" alt="picture of a with pet">
+          <div class="carousel-caption d-none d-md-block">
+          <h5>Here she is!</h5>
+          <p>lovely</p>
+        </div>
+        </div>
+    
+        <div class="item">
+          <img src="../images/school children.jpg" alt="picture of school children">
+          <div class="carousel-caption d-none d-md-block">
+          <h5 class="lead"> Imagine a world without women</h5>
+            <p  class="lead"> impossible</p>
+        </div>
+      </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- A heading section using a div block that holds a contianer -->
+    <div class="container p-3 mb-2 bg-light text-dark">
+      <div class="welcome-text">
+        <h3>WELCOME</h3>
+        <h5>Its good to have you here!</h5>
+        <p>
+          Feel free to explore this page and leave your comments and feedbacks
+          sent directly to my email. content while also supporting a responsive
+          display screen resizing k firstly at the top of the page between a
+          Heather section is a navigation list using the bootstrap components
+          next is the body section that contains a banner a title of the page
+          and leading sentence all with a blue background and the content of the
+          page the content contains some pretty pictures and butterflies using
+          different layouts as well as a bootstrap 4 market trading with content
+          the final section is a FUTA butterfly pictures thumbnails below are
+          some pretty pictures of butterflies downloaded from the websites on
+          slash
+        </p>
+      </div>
+      <br /><br />
+      <div class="second-content">
+        this page is all about exploring bootstrap contents and implimenting
+        them, getting a beautiful designs background colour and ownership
+        respectively it holds a role with the image is assigned to a colour SM4
+        column and the test assigned to a single call SMA till I need to span
+        the remaining 8 coulomb unit added to each of these two columns is the
+        cold 12 weeks is when the screen is smaller than 576 PS it will then use
+        all 12 columns grid for each image and text align them to be stacked on
+        top of each other this is a picture of butterfly by Aaron may not hear
+        the class img-fluid rounded has been applied to the image since the
+        title above using speech class late to make the test and out why this
+        season's defeat class small to distinguish it from the normal paragraphs
+        in the next role as with the above the one above within a new team block
+        we first have the latest colour has been assigned using a cod
+      </div>
+      <br /><br />
+      <div class="third-content">
+        with beautiful and freely usable images this images are placed in a
+        single bus structure composed of three columns using a combined call SM4
+        call 12 where the coal SM 4463 images to be in a role on all screen
+        sizes except a very small ones 576 PX where the CO2 air force's the
+        images to use all 12 column grade unit and start each image on top of
+        each other each image has A class AMG Tomlin apply to eat allowing it
+        refers to the size of the colon Butterfly pictures with test the
+        following image and text is held within a new deal which has the class
+        attributes before and before bg-light rounded to set the pardon margin
+        below e sm800 12 followed by the image held in a column assigned a class
+        code SM4 code to my reversing the order shown in the previous room this
+        is a picture of butterfly by branding him another picture of a beautiful
+        butterfly that has a class img-fluid rounded binary24 in the final rule
+        used in the blood controls as used in the first room this is a picture
+        of a butterfly by Andrea c Taylor Jr hear the class img-fluid
+        rounded-circle has been applied to the image
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../images/glasses-1052010_640.jpg" class="card-img-top" alt="glasses">
+      <div class="card-body">
+        <h5 class="card-title">BOOKS AND GLASESS</h5>
+        <p class="card-text">Study to show thyself approved</p>
+        <a href="#" class="btn btn-primary">PROFILE</a>
+      </div>
+    </div>
+    <p class="text-end">
+      <a id="top"></a>
+    <a href="#top">TOP</a>
+    
+    <!-- A section with three thumbnail images in a row-->
+    <div class="row">
+      <div class="container p-3 mb-2 text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <img
+              src="../images/model-429733_640.jpg"
+              class="img-fluid img-thumbnail col-sm-4 col-12"
+              alt="model"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="../images/girl-1160441_640.jpg"
+              class="img-fluid img-thumbnail col-sm-4 col-12"
+              alt="beautiful lady with pet"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="../images/school children.jpg"
+              class="img-fluid img-thumbnail col-sm-4 col-12"
+              alt="school children"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-end">
+      <a id="top"></a>
+    <a href="#top">TOP</a>
+    <!-- collapse feature -->
+     <p> 
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        click here
+      </a> 
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Details
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        with beautiful and freely usable images this images are placed in a single bus structure composed of three columns using a combined call SM4 call 12 where the coal SM 4
+      </div>
+    </div>
+    <!-- A section with two images with some associated text and styling, spread
+across two rows -->
+    <div class="images">
+      <div class="container text-center p-4 mb-4 bg-light rounded">
+        <div class="row align-items-start">
+          <div class="col">
+            <img
+              src="../images/books-1204029_640.jpg"
+              class="img-fluid rounded-circle img-thumbnail col-sm-4"
+              alt="books"
+            />
+          </div>
+          <div class="col col-sm-8">
+           <p class="lead">This is picture of a library</h5>
+            <p class="small">students who do not make use of the library do not excel in class,
+               physical or digital library must be a routine</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="images">
+      <div class="container text-center p-4 mb-4 bg-light rounded">
+        <div class="row align-items-start">
+          <div class="col col-sm-8">
+            <h class="lead"> This is a picture of a car</h5>
+            <p class="small"> Work hard to get it!</p>
+          </div>
+          <div class="col">
+            <img
+              src="../images/MOTOR IMAGE.jpg"
+              class="img-fluid rounded-pill img-thumbnail col-sm-4"
+              alt="glasses"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-end">
+      <a id="top"></a>
+    <a href="#top">TOP</a>
+    <!--An example table with styling applied, containing some text/information-->
+    <div class="table container text-center">
+      <table class="table">
+        <thead class=" table-striped table-hover table-success">
+          <tr>
+            <th scope="col">s/n</th>
+            <th scope="col">Firstname</th>
+            <th scope="col">Lastname</th>
+            <th scope="col">social Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td >Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-end">
+      <a id="top"></a>
+    <a href="#top">TOP</a>
+    <!-- A simple footer section. -->
+    <footer class="container text-center bg-black text-white">
+      &COPY;2023 a webpage folder with vital information--
+    </footer>
+  </body>
+</html>
